@@ -10,4 +10,11 @@ public class Controller {
 	public String test() {
 		return "Testing...";
 	}
+	
+	@GetMapping("login")
+	public String loginpage()
+	{
+		return "login";
+	}
+	
 }
