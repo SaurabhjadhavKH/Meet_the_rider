@@ -17,4 +17,9 @@ public class Controller {
 		return "login";
 	}
 	
+	@GetMapping("home")
+	public String home() {
+		return "home";
+	}
+	
 }
